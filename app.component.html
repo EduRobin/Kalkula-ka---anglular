@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="">
+
+    <table>
+      <tr>
+        <td width="50px" height="50px" [innerHTML]="result"></td>
+      </tr>
+    </table>
+
+    <div class="up">
+
+      <input type="button" value="1" (click)="jedna()">
+
+      <input type="button" value="2" (click)="dva()">
+
+      <input type="button" value="3" (click)="tri()">
+    </div>
+
+    <div class="middle">
+      <button (click)="ctyri()">4</button>
+
+      <button (click)="pet()">5</button>
+
+      <button (click)="sest()">6</button>
+    </div>
+
+    <div class="bottom">
+
+    <button (click)="sedm()">7</button>
+
+    <button (click)="osm()">8</button>
+
+    <button (click)="devet()">9</button>
+
+    <button (click)="nula()">0</button>
+
+    </div>
+
+    <div class="idk">
+      <button (click)="minus()">-</button>
+
+      <button (click)="plus()">+</button>
+
+      <button (click)="deleno()">/</button>
+
+      <button (click)="krat()">*</button>
+
+      <button (click)="vysledek()">=</button>
+
+    </div>
+
+  </div>
+</div>
