@@ -3,7 +3,7 @@
 
     <table>
       <tr>
-        <td width="50px" height="50px" [innerHTML]="result"></td>
+       {{result}}
       </tr>
     </table>
 
@@ -14,38 +14,39 @@
       <input type="button" value="2" (click)="dva()">
 
       <input type="button" value="3" (click)="tri()">
+
     </div>
 
     <div class="middle">
-      <button (click)="ctyri()">4</button>
+      <input type="button" value="4" (click)="ctyri()">
 
-      <button (click)="pet()">5</button>
+      <input type="button" value="5" (click)="pet()">
 
-      <button (click)="sest()">6</button>
+      <input type="button" value="6" (click)="sest()">
     </div>
 
     <div class="bottom">
 
-    <button (click)="sedm()">7</button>
+      <input type="button" value="7" (click)="sedm()">
 
-    <button (click)="osm()">8</button>
+      <input type="button" value="8"(click)="osm()">
 
-    <button (click)="devet()">9</button>
+      <input type="button" value="9"(click)="devet()">
 
-    <button (click)="nula()">0</button>
+      <input type="button" value="0"(click)="nula()">
 
     </div>
 
     <div class="idk">
-      <button (click)="minus()">-</button>
+      <input type="button" value="-"(click)="minus()">
 
-      <button (click)="plus()">+</button>
+      <input type="button" value="+"(click)="plus()">
 
-      <button (click)="deleno()">/</button>
+      <input type="button" value="/"(click)="deleno()">
 
-      <button (click)="krat()">*</button>
+      <input type="button" value="*"(click)="krat()">
 
-      <button (click)="vysledek()">=</button>
+      <input type="button" value="="(click)="vysledek()">
 
     </div>
 

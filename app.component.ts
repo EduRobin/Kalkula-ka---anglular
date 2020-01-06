@@ -58,7 +58,7 @@ export class AppComponent {
   vysledek() {
      const expression = this.result;
     // tslint:disable-next-line:no-eval
-     this.vysledek = eval(expression.toString());
+     this.result = eval(expression.toString());
   }
 
 
