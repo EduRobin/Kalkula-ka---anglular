@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
 
-  public result;
+  result: any = '';
 
   nula() {
     this.result += 0;
